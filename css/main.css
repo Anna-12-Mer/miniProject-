@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+  }
+
+.home{
+    background-image: url('../assets/img/office-photo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.cover-home{
+    background-color: #3935357a;
+    height: 100%;
+}
+.titel{
+    color: #fff;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform : uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
