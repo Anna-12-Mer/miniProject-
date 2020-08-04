@@ -30,12 +30,18 @@ body, html {
   }
   
   .nav {
+    padding: 0px 2%;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.23);
     height: 50px;
     width: 100%;
     background-color: #4d4d4d00;
-    position: relative;
+    position: fixed;
+    transition:500ms ease;
+    background:transparent;
   }
-  
+  .nav.scrolled{
+    background:#000;
+  }
   .nav > .nav-header {
     display: inline;
   }
@@ -71,6 +77,17 @@ body, html {
   
   .nav > #nav-check {
     display: none;
+  }
+
+  .button-conexion{
+    border-color: #fff;
+    color: #fff;
+    background-color: transparent;
+    width: 40%;
+    padding: 15px;
+  }
+  .titel > .input:hover{
+    color: #fff;
   }
   
   @media (max-width:600px) {
@@ -117,4 +134,23 @@ body, html {
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
+  }
+
+  /****
+    About section 
+  ****/
+  .tilte-section{
+    color: #f8c765;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .under-bar{
+    background-color: #f8c765;
+    width: 5%;
+    height: 2px;
+    margin: auto;
+    border-radius: 24px;
+    border-color:#f8c765;
+    margin-top: -1%;
   }
